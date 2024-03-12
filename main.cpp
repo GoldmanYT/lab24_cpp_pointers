@@ -1,8 +1,15 @@
 #include <iostream>
 
 using namespace std;
-// 10bL&
-// 0b110L&0b010
+
+/* samples
+
+    10bL&
+    0b110L&0b010
+
+    21+-3
+    1+221-31+121
+*/
 
 
 int main()
