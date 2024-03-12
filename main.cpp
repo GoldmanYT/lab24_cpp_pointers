@@ -36,5 +36,11 @@ int main()
 
     cout << *P1 << *P2 << *P3 << *P4 << *P5 << *P6
          << *P7 << *P8 << *P9 << *P10 << *P11 << *P12;
+
+    delete P1;  // 0
+    delete P2;  // b
+    delete P3;  // 1
+    delete P6;  // L
+    delete P7;  // &
     return 0;
 }
